@@ -1,0 +1,134 @@
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+.progTitle {
+    font-size: 16px;
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin: 25px 0 0;
+}
+.progress {
+    height: 6px !important ;
+    box-shadow: none;
+    background: #f2f3f7;
+    overflow: visible !important;
+    position: relative;
+}
+.progress-bar{
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 600;
+    text-align: right;
+    position: relative;
+    overflow: visible;
+    border-radius: 8px;
+    float: left;
+    height: 100%;
+    transition: width .6s ease;
+    overflow: visible !important;
+}
+
+.proClr1 .progress-bar::before {
+    content: "75%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.proClr2 .progress-bar::before {
+    content: "85%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.proClr3 .progress-bar::before {
+    content: "70%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.proClr4 .progress-bar::before {
+    content: "60%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.proClr5 .progress-bar::before {
+    content: "90%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.proClr6 .progress-bar::before {
+    content: "80%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.progress .progress-bar::after{
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.proClr1 .progress-bar,
+.proClr1 .progress-bar::after {
+    color: #2c98f0 ;
+    background: #2c98f0 ;
+}
+.proClr2 .progress-bar,
+.proClr2 .progress-bar::after {
+    color: #f9bf3f ;
+    background: #f9bf3f ;
+}
+.proClr3 .progress-bar,
+.proClr3 .progress-bar::after{
+    color: #2fa499;
+    background: #2fa499 ;
+}
+.proClr4 .progress-bar,
+.proClr4 .progress-bar::after{
+    color: #ec5453 ;
+    background: #ec5453 ;
+}
+.proClr5 .progress-bar,
+.proClr5 .progress-bar::after{
+    color: #a84cb8 ;
+    background: #a84cb8 ;
+}
+.proClr6 .progress-bar,
+.proClr6 .progress-bar::after {
+    color: #4054b2 ;
+    background: #4054b2 ;
+}

@@ -1,0 +1,83 @@
+.list-group {
+    list-style: none;
+}
+ul .work-li {
+    padding: 10px !important;
+}
+.work-li .link {
+    text-decoration: none;
+    color: var(--p-color);
+}
+.work-li.activee .link{
+    color: var(--blue-color);
+}
+.all-card {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+.all-card .desc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2c98f0;
+    opacity: 0;
+    transition: .3s;
+}
+.all-card .desc:hover {
+    opacity: 1;
+}
+.all-card .desc .con {
+    padding: 20px;
+    display: block;
+    position: relative;
+    height: 300px;
+}
+.all-card .desc h3 {
+    font-family: Quicksand, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform .3s, opacity .3s, -webkit-transform .3s;
+    margin-bottom: 15px;
+}
+.all-card .desc h3 .h3-link {
+    color: #fff;
+}
+.all-card .desc span {
+    color: #ffffffb3;
+    font-size: 13px;
+    transition: transform .3s, opacity .3s, -webkit-transform .3s;
+}
+.all-card .desc .con .icon {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.all-card .desc .con .icon span {
+    display: inline;
+    padding-right: 5px;
+}
+.all-card .desc .con .icon span .card-link {
+    color: #333;
+    padding: 5px;
+    background: #ffffff80;
+    border-radius: 4px;
+}
+.p-button {
+    text-align: center;
+}
+button {
+    border: none !important;
+    border-radius: 10px !important;
+    
+}
