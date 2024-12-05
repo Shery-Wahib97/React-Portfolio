@@ -11,15 +11,12 @@ export default function Layout() {
 
     const activeLi = (link) => {
         setActive(link);
-        setSidebarShow(link);
+        
     };
 
     const getClassName = (link) => {
         return  `side-item ${active === link ? 'active' : ''}`;
-    };
-    // const getShowClass = (link) => {
-    //     return  ` ${SidebarShow === link ? " " :''}`
-    // }
+    }
 
     return (
         <>
